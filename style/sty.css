@@ -1,0 +1,117 @@
+body {
+    background-color: aliceblue;
+}
+
+.navbar-brand img {
+    height: 4rem;
+}
+
+.navbar-nav li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.our-partner h1 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.our-partner {
+    cursor: pointer;
+    background-color: #e3f2fd;
+    color: rgb(11, 50, 112);
+}
+
+
+.our-partner .owl-carousel .item {
+    background-color: aliceblue;
+    box-shadow: 11px 6px 9px rgb(15 15 48 / 33%);
+    border-radius: 2px;
+    height: auto 100%;
+    margin: 10px;
+}
+
+.service h1 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+#foot_fit li a,
+li {
+    list-style: none;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.495);
+}
+
+#foot_fit {
+    padding: 0px;
+}
+
+
+
+
+
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background: url(https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    float: left;
+    margin: 0px 30px 0px 0;
+    shape-outside: circle();
+    box-shadow: 0 2.5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.circle h1 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 48px;
+    color: rgb(14, 14, 14);
+}
+
+.circle p {
+    color: rgb(108, 106, 106);
+    font-weight: 300;
+    line-height: 26px;
+}
+
+
+.service img {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 20vh;
+    /* background: url(https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    border-radius: 50%;
+    /* float: left; */
+    /* margin: 50px 30px 30px 0; */
+    /* shape-outside: circle(); */
+    box-shadow: 0 2.5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.service .rap {
+    box-shadow: 0 2.5px 5px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10% 0% 10% 0%;
+    background-color: #ffffff;
+
+}
+
+
+.rap .text {
+    text-align: justify;
+}
